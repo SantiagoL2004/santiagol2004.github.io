@@ -1,0 +1,1015 @@
+body{
+  background-image: url(../css/img/david-2147606_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lugrasimo', cursive;
+}
+
+
+header{
+    background-color: gray;
+    display: flex;
+    height: 100px;
+    width: 98.5%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 3px;
+    box-shadow: 1px 1px 6px ;
+
+    position: fixed;
+    top: 0%;
+}
+
+header h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    
+}
+nav a:hover{
+    color: green;
+}
+
+nav a{
+    text-decoration: none;
+    font-size:15px;
+    margin-left: 30px;
+    color: black;
+}
+
+  .RR{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 150px;
+  }
+
+
+
+
+#contenedores{
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+#contenedores h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas{
+    width: 30%;
+    height: auto;
+    margin: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 6px ;
+    border-radius: 10%;
+}
+
+.cajas img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cajas a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+
+/*pricipales artistas*/
+
+.RR1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+
+
+#contenedores2{
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 50px;
+}
+
+#contenedores2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedores2 summary{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cajas2{
+    width: 30%;
+    height:auto;
+    margin: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 6px ;
+    border-radius: 10%;
+}
+
+
+.cajas2 a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.cajas2 img{
+    width: 100%;
+    height: 200px;
+}
+
+/*principales artistas segundo contenedor*/
+
+#contenedores3{
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+#contenedores3 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedores3 summary{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cajas3{
+    width: 30%;
+    height: auto;
+    margin: 5px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 6px ;
+    border-radius: 10%;
+}
+
+.cajas3 a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 6px ;
+    border-radius: 10%;
+}
+
+.cajas3 img{
+    width: 100%;
+    height: 200px;
+}
+
+
+/*para celular*/
+
+
+@media screen and (min-width: 280px) and (max-width: 490px){
+    body{
+        background-image: url(../css/img/david-2147606_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Lugrasimo', cursive;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      
+      header{
+        background-color: gray;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      header h1{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        margin-top: 20px;
+        
+    }
+
+    nav a{
+        text-decoration: none;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+      nav a:hover{
+          color: green;
+      }
+      
+    
+      
+        .RR{
+          margin-top: 40px;
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+          margin-top: 150px;
+        }
+      
+      #contenedores{
+          height: auto;
+          width: 80%;
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 30px;
+          padding: 30px;
+          justify-content: center;
+          
+      }
+      
+      #contenedores h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .cajas{
+          width: 100%;
+          height: auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+      }
+      
+      .cajas img{
+          width: 100%;
+          height: 200px;
+          border-radius: 10px;
+      }
+      
+      .cajas a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+      }
+      
+      
+      
+      /*pricipales artistas*/
+      
+      .RR1{
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+          margin-top: 50px;
+        }
+      
+      
+      
+      #contenedores2{
+          width: 80%;
+          height: auto;
+          display: flex;
+          flex-wrap: wrap;
+          padding: 50px;
+          justify-content: center;
+      }
+      
+      #contenedores2 h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      #contenedores2 summary{
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      
+      .cajas2{
+          width: 100%;
+          height:auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+          margin-top: 20px;
+      }
+      
+      
+      .cajas2 a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+      }
+      
+      .cajas2 img{
+          width: 100%;
+          height: 200px;
+      }
+      
+      /*principales artistas segundo contenedor*/
+      
+      #contenedores3{
+          width: 80%;
+          height: auto;
+          display: flex;
+          flex-wrap: wrap;
+          padding: 50px;
+          margin-top: 20px;
+          justify-content: center;
+      }
+      
+      #contenedores3 h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      #contenedores3 summary{
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      
+      .cajas3{
+          width: 100%;
+          height: auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+          margin-top: 20px;
+      }
+      
+      .cajas3 a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+      }
+      
+      .cajas3 img{
+          width: 100%;
+          height: 200px;
+      }
+
+}
+
+/*para tablest*/
+
+@media screen and (min-width: 491px) and (max-width: 570px){
+    body{
+        background-image: url(../css/img/david-2147606_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Lugrasimo', cursive;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      
+      header{
+        background-color: gray;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+      }
+      
+      header h1{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        margin-top: 20px;
+        
+    }
+
+    nav a{
+        text-decoration: none;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+      nav a:hover{
+          color: green;
+      }
+      
+    
+      
+        .RR{
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+          margin-top: 150px;
+        }
+      
+      #contenedores{
+          height: auto;
+          width: 80%;
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 30px;
+          padding: 30px;
+          justify-content: center;
+          
+      }
+      
+      #contenedores h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .cajas{
+          width: 90%;
+          height: auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+      }
+      
+      .cajas img{
+          width: 100%;
+          height: 200px;
+          border-radius: 10px;
+      }
+      
+      .cajas a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+      }
+      
+      
+      
+      /*pricipales artistas*/
+      
+      .RR1{
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+          margin-top: 50px;
+        }
+      
+      
+      
+      #contenedores2{
+          width: 80%;
+          height: auto;
+          display: flex;
+          flex-wrap: wrap;
+          padding: 50px;
+          justify-content: center;
+      }
+      
+      #contenedores2 h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      #contenedores2 summary{
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      
+      .cajas2{
+          width: 90%;
+          height:auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+          margin-top: 20px;
+      }
+      
+      
+      .cajas2 a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+      }
+      
+      .cajas2 img{
+          width: 100%;
+          height: 200px;
+      }
+      
+      /*principales artistas segundo contenedor*/
+      
+      #contenedores3{
+          width: 80%;
+          height: auto;
+          display: flex;
+          flex-wrap: wrap;
+          padding: 50px;
+          margin-top: 20px;
+          justify-content: center;
+      }
+      
+      #contenedores3 h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      #contenedores3 summary{
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      
+      .cajas3{
+          width: 90%;
+          height: auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+          margin-top: 20px;
+      }
+      
+      .cajas3 a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+      }
+      
+      .cajas3 img{
+          width: 100%;
+          height: 200px;
+      }
+
+}
+
+/*para laptos*/
+
+@media screen and (min-width: 571px) and (max-width: 890px){
+    body{
+        background-image: url(../css/img/david-2147606_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Lugrasimo', cursive;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      
+      header{
+        background-color: gray;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+      }
+      
+      header h1{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        margin-top: 20px;
+        
+    }
+
+    nav a{
+        text-decoration: none;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+      nav a:hover{
+          color: green;
+      }
+      
+    
+      
+        .RR{
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+          margin-top: 150px;
+        }
+      
+      #contenedores{
+          height: auto;
+          width: 80%;
+          display: flex;
+          justify-content: center;
+          margin-top: 30px;
+          padding: 30px;
+          
+      }
+      
+      #contenedores h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .cajas{
+          width: 60%;
+          height: auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+      }
+      
+      .cajas img{
+          width: 100%;
+          height: 200px;
+          border-radius: 10px;
+      }
+      
+      .cajas a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+      }
+      
+      
+      
+      /*pricipales artistas*/
+      
+      .RR1{
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+          margin-top: 50px;
+        }
+      
+      
+      
+      #contenedores2{
+          width: 80%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          padding: 30px;
+      }
+      
+      #contenedores2 h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      #contenedores2 summary{
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      
+      .cajas2{
+          width: 80%;
+          height:auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+          margin-top: 20px;
+      }
+      
+      
+      .cajas2 a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+      }
+      
+      .cajas2 img{
+          width: 100%;
+          height: 200px;
+      }
+      
+      /*principales artistas segundo contenedor*/
+      
+      #contenedores3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+      }
+      
+      #contenedores3 h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      #contenedores3 summary{
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      
+      .cajas3{
+          width: 80%;
+          height: auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+          margin-top: 20px;
+      }
+      
+      .cajas3 a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+      }
+      
+      .cajas3 img{
+          width: 100%;
+          height: 200px;
+      }
+
+}
+
+/*para otras pantallas*/
+
+@media screen and (min-width: 891px){
+    body{
+        background-image: url(../css/img/david-2147606_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Lugrasimo', cursive;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      
+      header{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+      }
+      
+      header h1{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        margin-top: 20px;
+        
+    }
+
+    nav a{
+        text-decoration: none;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+      nav a:hover{
+          color: green;
+      }
+      
+    
+      
+        .RR{
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+          margin-top: 150px;
+        }
+      
+      #contenedores{
+          height: auto;
+          width: 95%;
+          display: flex;
+          justify-content: center;
+          margin-top: 30px;
+          padding: 30px;
+          
+      }
+      
+      #contenedores h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .cajas{
+          width: 90%;
+          height: auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+      }
+      
+      .cajas img{
+          width: 100%;
+          height: 200px;
+          border-radius: 10px;
+      }
+      
+      .cajas a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+      }
+      
+      
+      
+      /*pricipales artistas*/
+      
+      .RR1{
+          margin-top: 20px;
+          display: flex;
+          justify-content: center;
+          font-size: 20px;
+          margin-top: 50px;
+        }
+      
+      
+      
+      #contenedores2{
+          width: 95%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          padding: 50px;
+      }
+      
+      #contenedores2 h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      #contenedores2 summary{
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      
+      .cajas2{
+          width: 100%;
+          height:auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+          margin-top: 20px;
+      }
+      
+      
+      .cajas2 a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+      }
+      
+      .cajas2 img{
+          width: 100%;
+          height: 200px;
+      }
+      
+      /*principales artistas segundo contenedor*/
+      
+      #contenedores3{
+          width: 95%;
+          height: auto;
+          display: flex;
+          padding: 50px;
+          margin-top: 20px;
+          justify-content: center;
+      }
+      
+      #contenedores3 h2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      #contenedores3 summary{
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      
+      .cajas3{
+          width: 100%;
+          height: auto;
+          margin: 5px;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+          margin-top: 20px;
+      }
+      
+      .cajas3 a{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          text-decoration: none;
+          box-sizing: border-box;
+          box-shadow: 1px 1px 6px ;
+          border-radius: 10%;
+      }
+      
+      .cajas3 img{
+          width: 100%;
+          height: 200px;
+      }
+
+}
+
